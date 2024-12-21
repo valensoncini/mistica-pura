@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #648B93;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+
+/*HEADER*/
+
+header{
+    grid-row: 1 / 2;
+}
+.header-container{
+    width: 100%;
+    height: 7em;
+    background-color: #C1E8FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-container >  h2{
+    margin-left: 0.5em;
+    font-size: 30px;
+}
+
+.iconos a{
+    text-decoration: none;
+}
+.iconos i{
+    color: black;
+    margin-right: 1em;
+    font-size: 20px;
+}
+
+#btnCarrito{
+    border: none;
+    background-color: #C1E8FF;
+    cursor: pointer;
+}
+
+
+
+
+
+nav{
+    background-color: #7DA0CA;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    padding: 1em;
+    list-style: none;
+    margin-left: 0.5em;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.8s ease;
+    padding: 1em;
+}
+ul li a:hover{
+    background-color: #052659;
+    color: #C1E8FF;
+    border-radius: 50px;
+}
+
+/*MAIN*/
+main{
+    grid-row: 2 / 3;
+}
+
+/*FOOTER*/
+footer{
+    grid-row: 3 / 4;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.pie-de-pagina{
+    width: 100%;
+    height: 2.5em;
+    padding: 1em;
+    color: #7DA0CA;
+    background-color: #021024;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.pie-de-pagina p{
+    margin-left: 0.5em;
+}

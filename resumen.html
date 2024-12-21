@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/resumen.css">
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+    <title>Resumen Compra</title>
+</head>
+<body>
+    <section class="resumenContainer">
+        <div class="resumenHeader">
+            <h2>Gracias por comprar en Mistica Pura</h2>
+            <h3>Aqui su resumen</h3>
+        </div>
+        <div class="resumenMain">  
+           <div class="productos">
+                <h4>Productos</h4>
+                <ul id="productosResumen"></ul>     
+
+           </div>
+           <div class="cantidad">
+                <h4>Cantidad</h4>
+                <ul id="cantidadProductos"></ul>
+           </div>
+
+           <div class="total">
+                <h4 id="totalCompra">Total</h4>
+           </div>
+        </div>
+
+        <div class="formsContainer">
+            <h4>Formulario para envio de resumen</h4>
+            <form action="https://formsubmit.co/valen_soncini@hotmail.com" method="post" id="formularioResumen">
+                <label for="">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="">Telefono</label>
+                <input type="number" name="telefono" id="telefono">
+                <button type="submit">Enviar</button>
+                
+            </form>
+            <a href="index.html"><button id="btnRegreso">Regresar</button></a>
+        </div>
+       
+        <div class="resumenFooter">
+            <p>@Resumen unico</p>
+        </div>
+    </section>
+    <script src="assets/js/resumen.js"></script>
+</body>
+</html>

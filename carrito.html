@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/carrito.css">
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+    <title>Mistica Pura</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h2>Mistica Pura</h2>
+            <div class="iconos">
+               <a href="login.html"><i class="fa-solid fa-user"></i></a>
+               <a href="carrito.html"><button id="btnCarrito"><i class="fa-solid fa-cart-shopping"></i></button></a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="">Sobre nosotros</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <section class="carrito-container">
+            <div class="carrito">
+                <div class="carrito-productos"> 
+                    <h4>Carrito</h4>
+                    <ul id="lista-productos"></ul>
+                </div>
+                <div class="carrito-precios">
+                    <h4>Precio</h4>
+                    <ul id="lista-precios"></ul>
+                </div>
+            </div>
+            <div class="total-carrito">
+                <h4 id="total">Total</h4>
+            </div>
+            <div class="btnComprarContainer">
+              <button id="btnComprar">Comprar</button>
+            </div>
+        </section>
+     
+
+    </main>
+    <footer>
+        <div class="pie-de-pagina">
+            <a href="https://www.instagram.com/valen.soncini/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <p>Creado por Soncini Valentino Marco</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/55b869ce03.js" crossorigin="anonymous"></script>
+    <script src="assets/js/comprar.js"></script>
+</body>
+</html>
