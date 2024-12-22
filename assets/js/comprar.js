@@ -133,6 +133,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 document.getElementById("btnComprar").addEventListener("click", ()=>{
-    confirm("Quieres confirmar la compra?");
-    window.location.href = "resumen.html";
+    if(confirm("Quieres confirmar la compra?")){
+        window.location.href = "resumen.html";
+    }else{
+        window.location.href = "carrito.html";
+    }
+    
+    
 })
